@@ -6,7 +6,7 @@ DEVICE := earth
 
 ZIP := $(NAMA)-$(DEVICE)-$(DATE).zip
 
-EXCLUDE := Makefile *.git* *.jar* *placeholder* *.md*
+EXCLUDE := Makefile *.git* *.jar* *placeholder* *.md* *.zip* 
 
 normal: $(ZIP)
 
